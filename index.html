@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Olivia's First Website</title>
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
     <header>
@@ -12,13 +13,31 @@
     </header>
     <nav>
         <a href="index.html">About me</a> |
-        <a href="pages/goals.html">My hobbies</a> |
-        <a href="pages/hobbies.html">My goals</a>
+        <a href="pages/goals.html">My goals</a> |
+        <a href="pages/hobbies.html">My hobbieI s</a>
     </nav>
     <main>
-            <h2>About Me</h2>
-            <p>I am a college student majoring in Information Technology. I work part time at a local 
-                burger and ice cream shop, and I am currently pregnant with my first born child.  </p>
+        <h2>About Me</h2>
+
+        <p>I am a college student majoring in Information Technology. I work part time at a local 
+        burger and ice cream shop, and I am currently pregnant with my first born child.  </p>
+
+        <div class="content-container">
+            <a href="pages/hobbies.html" class="card-link">
+                <section class="hobbies-card">
+                    <h2>My hobbies</h2>
+                    <p>Click here to read about what I enjoy doing in my free time!</p>
+                </section>
+            </a>
+
+            <!-- Goals Card Link -->
+            <a href="pages/goals.html" class="card-link">
+                <section class="goals-card">
+                    <h2>My goals</h2>
+                    <p>Click here to see my short-term and long-term goals for the future.</p>
+                </section>
+            </a>
+        </div>
     </main>
 
     <footer>
